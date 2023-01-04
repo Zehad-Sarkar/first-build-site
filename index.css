@@ -1,0 +1,93 @@
+
+nav{
+    background-color: rgb(235, 186, 186);
+    width: 100vw;
+    height: 40px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 5px;
+}
+nav li:hover{
+    background-color: rgb(233, 157, 157);
+}
+    
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+main{
+    padding: 5px;
+    margin: 2px 5px;
+}
+main ol li{
+    font-size: 16px;
+    padding-top: 5px;
+}
+section h1{
+    font-size: 28px;
+    font-family: sans-serif;
+    background-color: green;
+    padding: 10px 5px;
+}
+section p{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.his{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: green;
+    padding: 10px 0;
+}
+h3{
+    background-color: tomato;
+    padding: 10px 5px;
+}
+label{
+    display: block;
+    margin: 10px;
+    font-weight: 600;
+}
+input{
+    padding: 10px;
+    margin-left: 10px;
+}
+.dv{
+    
+    margin: 5px 2px;
+    
+    
+}
+.reset-btn{
+    padding: 2px 8px;
+    background-color: rgb(187, 81, 42);
+    color: white;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.submit-btn{
+    padding: 2px 8px;
+    background-color: rgb(187, 81, 42);
+    color: white;
+    font-size: 16px;
+}
+.signin-btn{
+    padding: 2px 8px;
+    background-color: rgb(187, 81, 42);
+    color: white;
+    font-size: 18px;
+    margin-left: 4px;
+}
+.forgot{
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 85px;
+    cursor: pointer;
+}
